@@ -5,6 +5,19 @@ WARNING: This is a publicly available image on https://hub.docker.com/r/smartcos
 
 == Usage
 
+=== Local
+
+Add `add-rpm.sh` to your path, for example:
+
+[source, bash]
+----
+ln -sf ${PWD}/add-rpm.sh ~/bin/add-rpm
+----
+
+Now you can go into a folder with a freshly made RPM, and just run: `add-rpm beta *.rpm`
+
+=== Jenkins
+
 In your projects Jenkinsfile use it like this:
 
 [source, groovy]

@@ -9,7 +9,7 @@ fi
 
 ARCHS="x86_64"
 
-ENV=$2
+ENV=$1
 
 shift;
 
