@@ -1,7 +1,7 @@
 
 FROM fedora:latest
 
-RUN dnf install -y createrepo python2-boto3 python-pexpect deltarpm python-deltarpm git && \
+RUN dnf install -y createrepo python2-boto python-pexpect deltarpm python-deltarpm git && \
   dnf clean all
 
 RUN git clone https://github.com/SMARTRACTECHNOLOGY/rpm-s3.git --recurse-submodules /rpm-s3 && \
