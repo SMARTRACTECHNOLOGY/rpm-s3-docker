@@ -13,6 +13,6 @@ RUN groupadd --gid 1000 smartcosmos && \
 
 USER smartcosmos
 
-ENV PATH /rpm-s3/bin:$PATH
+ENV PATH $PATH:/rpm-s3/bin
 
 ENTRYPOINT ["/rpm-s3/bin/rpm-s3"]
