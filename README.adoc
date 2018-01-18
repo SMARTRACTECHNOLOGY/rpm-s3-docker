@@ -1,4 +1,8 @@
 = RPM S3 Docker
+
+# DEPRECATED
+### This repository has been deprecated, and replaced with https://github.com/SMARTRACTECHNOLOGY/gateway-os
+
 Docker image that provides https://github.com/crohr/rpm-s3
 
 WARNING: This is a publicly available image on https://hub.docker.com/r/smartcosmos/rpm-s3/[Docker Hub], and as such *no private information should be included in the images*.
